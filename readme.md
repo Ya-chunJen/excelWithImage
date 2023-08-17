@@ -16,6 +16,9 @@
 
 ## Window平台打包为exe可执行文件
 1、导出依赖包：pip freeze > requirements.txt
+
 2、安装打包工具：pip install pyinstaller
+
 3、在本项目目录下，执行打包命令：pyinstaller --onefile  main.py --name Excel中URL转图片
+
 4、打包完成后，在本项目目录下的dist文件夹，寻找exe可执行文件
